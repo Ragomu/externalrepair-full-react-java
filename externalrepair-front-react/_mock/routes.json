@@ -1,0 +1,5 @@
+{
+  "/mock-get?id=x": "/route1",
+  "/keys/*": "/public",
+  "/login/*": "/mfa"
+}

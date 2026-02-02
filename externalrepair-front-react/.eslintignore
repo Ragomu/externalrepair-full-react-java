@@ -1,0 +1,9 @@
+node_modules
+.github
+.dependabot
+_mock
+.dist
+/*.js
+*.spec.tsx
+*.TodoTest.tsx
+src/utils/helpers/renderWithTheme.tsx

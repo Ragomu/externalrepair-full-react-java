@@ -1,0 +1,16 @@
+{
+  "route1": {
+    "x": "y"
+  },
+  "public": {
+    "publickey": "dioadsfoijaeopgjkwepogkpqgkfpowekg"
+  },
+  "login": {
+    "user": "user_cipher",
+    "password": "pass_cipher"
+  },
+  "mfa": {
+    "otp": "string",
+    "challenge": "string"
+  }
+}

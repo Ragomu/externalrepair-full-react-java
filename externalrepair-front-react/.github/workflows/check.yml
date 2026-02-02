@@ -1,0 +1,12 @@
+name: Check
+
+on:
+  pull_request:
+
+jobs:
+  call-workflow:
+    uses: platformbuilders/actions-workflows/.github/workflows/check-react.yml@main
+    secrets:
+      SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+      SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
+      PACKAGES_NPMRC: ${{ secrets.PACKAGES_NPMRC }}

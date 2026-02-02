@@ -1,0 +1,22 @@
+{
+  "root": true,
+  "extends": ["@platformbuilders/eslint-config-builders"],
+  "ignorePatterns": ["/*", "!/src"],
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],
+      "rules": {
+        "react/react-in-jsx-scope": "off"
+      }
+    },
+    {
+      "files": [
+        "*.test.{ts,tsx}",
+        "*.api.{ts,tsx}"
+      ],
+      "rules": {
+        "sonarjs/no-duplicate-string": "off"
+      }
+    }
+  ]
+}

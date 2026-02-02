@@ -1,0 +1,33 @@
+declare type InitialRequestPayload = {
+  NUMEROFLUIG: string;
+  ALMOXARIFADO: string;
+  LOGISTICA: string;
+  FORNECEDOR: string;
+  CNPJ: string;
+  IMAILFORNCEDOR: string;
+  CODFORNECEDOR: string;
+  CIDADE: string;
+  UF: string;
+  NF: string;
+  DATAVENCIMENTONF: string;
+  ICOTERMS: string;
+  PRIORIDADE: string;
+  DATADESEJAVELRETORNO: string;
+  CONTRAPARTE: string;
+  CONTRAPARTEEMAIL: string;
+  GESTORTECNICO: string;
+  GESTORTECNICOEMAIL: string;
+  DATASAIDAUISA: string;
+  REQUISICAO: string;
+  ITEMDATA: Array<{
+    MATERIAL: string;
+    DESCRICAO: string;
+    QUANTIDADE: string;
+    PESOUNITARIO: string;
+    QUANTIDADESAIDA: string;
+    ETIQUETA: string;
+    DIMENSOES: string;
+    VALORUNITARIO: string;
+    VALORTOTAL: string;
+  }>;
+};
