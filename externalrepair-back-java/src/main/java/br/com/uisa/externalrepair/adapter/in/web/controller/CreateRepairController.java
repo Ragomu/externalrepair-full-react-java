@@ -21,7 +21,7 @@ import org.springframework.web.multipart.MultipartFile;
 @CrossOrigin(origins = "*", allowedHeaders = "*")
 public class CreateRepairController implements CreateRepairApi {
 
-    private final CreateRepairUseCase useCase;
+    private final CreateRepairUseCase useCase = null;
 
     @PostMapping(consumes = {"multipart/form-data"})
     @Override

@@ -23,7 +23,7 @@ import org.springframework.web.bind.annotation.RestController;
 @CrossOrigin(origins = "*", allowedHeaders = "*")
 public class AssignUserController {
 
-    private final PersonRepository personRepository;
+    private final PersonRepository personRepository = null;
 
     @PostMapping
     public ResponseEntity<Void> assignUser(@Valid @RequestBody AssignUserRequest request) {

@@ -6,8 +6,11 @@ import {
   verifyExpiredToken,
 } from './interceptors';
 
-export const API_BASE_URL =
-  'https://dev-externalrepair-back-java-186726132534.us-east1.run.app';
+// export const API_BASE_URL =
+//   'https://dev-externalrepair-back-java-186726132534.us-east1.run.app';
+
+export const API_BASE_URL = import.meta.env.VITE_BASE_PATH || 'http://localhost:8080';
+
 
 const defaultConfig = {
   baseURL: API_BASE_URL,
